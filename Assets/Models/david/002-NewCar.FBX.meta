@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 047873cd10ad269469cbb2659ce53377
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Chassi
+    100004: RIM
+    100006: RIM001
+    100008: RIM002
+    100010: RIM003
+    100012: Rubber
+    100014: Rubber001
+    100016: Rubber002
+    100018: Rubber003
+    100020: Wheel Rim
+    100022: Wheel Rim001
+    100024: Wheel Rim002
+    100026: Wheel Rim003
+    100028: Wheel Spline
+    100030: Wheel Spline001
+    100032: Wheel Spline002
+    100034: Wheel Spline003
+    100036: WHEEL002
+    100038: WHEEL003
+    100040: WHEEL004
+    100042: WHEEL01
+    400000: //RootNode
+    400002: Chassi
+    400004: RIM
+    400006: RIM001
+    400008: RIM002
+    400010: RIM003
+    400012: Rubber
+    400014: Rubber001
+    400016: Rubber002
+    400018: Rubber003
+    400020: Wheel Rim
+    400022: Wheel Rim001
+    400024: Wheel Rim002
+    400026: Wheel Rim003
+    400028: Wheel Spline
+    400030: Wheel Spline001
+    400032: Wheel Spline002
+    400034: Wheel Spline003
+    400036: WHEEL002
+    400038: WHEEL003
+    400040: WHEEL004
+    400042: WHEEL01
+    2100000: 01 - Default
+    2100002: 'Material #11'
+    2100004: 'Material #12'
+    2300000: Chassi
+    2300002: Rubber
+    2300004: Rubber001
+    2300006: Rubber002
+    2300008: Rubber003
+    2300010: Wheel Rim
+    2300012: Wheel Rim001
+    2300014: Wheel Rim002
+    2300016: Wheel Rim003
+    2300018: Wheel Spline
+    2300020: Wheel Spline001
+    2300022: Wheel Spline002
+    2300024: Wheel Spline003
+    3300000: Chassi
+    3300002: Rubber
+    3300004: Rubber001
+    3300006: Rubber002
+    3300008: Rubber003
+    3300010: Wheel Rim
+    3300012: Wheel Rim001
+    3300014: Wheel Rim002
+    3300016: Wheel Rim003
+    3300018: Wheel Spline
+    3300020: Wheel Spline001
+    3300022: Wheel Spline002
+    3300024: Wheel Spline003
+    4300000: Wheel Rim
+    4300002: Wheel Spline
+    4300004: Rubber
+    4300006: Wheel Rim001
+    4300008: Wheel Spline001
+    4300010: Rubber001
+    4300012: Chassi
+    4300014: Wheel Rim002
+    4300016: Wheel Spline002
+    4300018: Rubber002
+    4300020: Wheel Spline003
+    4300022: Wheel Rim003
+    4300024: Rubber003
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
