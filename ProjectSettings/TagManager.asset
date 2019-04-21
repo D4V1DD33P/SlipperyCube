@@ -7,6 +7,7 @@ TagManager:
   - Obstacle
   - Collide
   - music
+  - Ground
   layers:
   - Default
   - TransparentFX

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraShake : MonoBehaviour
 {
+	/*
 	public Transform player; 
 
 	public IEnumerator Shake(float duration, float magnitude)
@@ -17,7 +18,7 @@ public class CameraShake : MonoBehaviour
 			float x = Random.Range(-0.2f, 0.2f) * magnitude; 
 			float y = Random.Range(-0.1f, 0.1f) * magnitude; 
 
-			transform.localPosition = new Vector3(originalPos.x, y-1.5f, originalPos.z+1.5f); 
+			transform.localPosition = new Vector3(x, y, originalPos.z); 
 
 			elapsed += Time.deltaTime; 
 
@@ -25,5 +26,5 @@ public class CameraShake : MonoBehaviour
 		}
 
 		transform.localPosition = originalPos; 
-	}
+	}*/
 }

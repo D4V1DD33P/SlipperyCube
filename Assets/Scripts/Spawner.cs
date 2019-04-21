@@ -28,9 +28,6 @@ public class Spawner : MonoBehaviour
         }
     }
 
-	 
-
-
     IEnumerator WaitSpawner() 
     {
     	yield return new WaitForSeconds(startWait); 
