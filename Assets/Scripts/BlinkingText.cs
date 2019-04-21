@@ -7,7 +7,7 @@ public class BlinkingText : MonoBehaviour
 {
     Text text; 
     public Transform player;   
-    public CameraShake cameraShake;
+    //public CameraShake cameraShake;
     public AudioSource warningSound; 
 
     void Start()
@@ -28,7 +28,7 @@ public class BlinkingText : MonoBehaviour
     				text.color = new Color(text.color.r, text.color.g, text.color.b, 1); 
     				warningSound.Play(); 
     				//StartCoroutine(cameraShake.Shake(1f, 0f));
-    				yield return new WaitForSeconds(0.7f); 
+    				yield return new WaitForSeconds(0.6f); 
     				break;
     			case "1": 
     				text.color = new Color(text.color.r, text.color.g, text.color.b, 0); 

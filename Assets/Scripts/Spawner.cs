@@ -20,12 +20,19 @@ public class Spawner : MonoBehaviour
     }
 
     void Update()
-    {
-        spawnWait = Random.Range(spawnLeastWait, spawnMostWait); 
-        if(end.transform.position.z < 250) 
+    {   
+        if(end.transform.position.z < 200) 
         {
-        	Destroy(this.gameObject);
+            Destroy(this.gameObject);
         }
+        if( end.transform.position.z < 2000 )
+        {
+            spawnLeastWait = spawnLeastWait - 0.0001f;
+            spawnMostWait = spawnMostWait -0.0001f;
+        } 
+        spawnWait = Random.Range(spawnLeastWait, spawnMostWait); 
+
+
     }
 
     IEnumerator WaitSpawner() 
