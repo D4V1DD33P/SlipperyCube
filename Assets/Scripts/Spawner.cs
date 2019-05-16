@@ -21,7 +21,7 @@ public class Spawner : MonoBehaviour
 
     void Update()
     {   
-        if(end.transform.position.z < 200) 
+        if(end.transform.position.z < 250) 
         {
             Destroy(this.gameObject);
         }
