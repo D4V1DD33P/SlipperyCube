@@ -6,7 +6,7 @@ public class PlayerCollision : MonoBehaviour
 	public PlayerMovement movement; 
 	public AudioSource fartSound; 
 	public float upwardsForce = 1000f; 
-	public Rigidbody rb; 
+	public Rigidbody rb;  
 
 	void Start () {
 		fartSound = GetComponent<AudioSource> (); 
@@ -16,10 +16,12 @@ public class PlayerCollision : MonoBehaviour
 	{			
 		if(collisionInfo.collider.tag == "Obstacle") 
 		{
-			fartSound.Play(); 
-			rb.AddForce(0, 0, 50f,  ForceMode.VelocityChange); 
+			rb.constraints = RigidbodyConstraints.None;
+			fartSound.Play();  
+			rb.AddForce(15f, 15f, 50f,  ForceMode.VelocityChange); 
 			movement.enabled = false; 
 			FindObjectOfType<GameManager>().EndGame(); 
+
 		}
 	}
 }

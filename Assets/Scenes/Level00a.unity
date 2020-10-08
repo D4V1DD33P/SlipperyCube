@@ -1205,6 +1205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   scoreTxt: {fileID: 1127705618}
+  totalScore: 0
   displayTotalScore: 
 --- !u!114 &1127705618
 MonoBehaviour:
@@ -1887,6 +1888,11 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 218974400}
+    - target: {fileID: 3472952586633163718, guid: 342093679e649494582143a2a491c298,
+        type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1127705617}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 342093679e649494582143a2a491c298, type: 3}
 --- !u!4 &1601298423 stripped
@@ -2033,6 +2039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   restartDelay: 1
   completeLevelUI: {fileID: 1301813252}
+  score: {fileID: 1127705617}
 --- !u!4 &1922672746
 Transform:
   m_ObjectHideFlags: 0

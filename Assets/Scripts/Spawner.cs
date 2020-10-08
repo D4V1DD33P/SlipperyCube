@@ -25,14 +25,12 @@ public class Spawner : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-        if( end.transform.position.z < 2000 )
+        if(end.transform.position.z < 2000 )
         {
             spawnLeastWait = spawnLeastWait - 0.0001f;
             spawnMostWait = spawnMostWait -0.0001f;
         } 
         spawnWait = Random.Range(spawnLeastWait, spawnMostWait); 
-
-
     }
 
     IEnumerator WaitSpawner() 
